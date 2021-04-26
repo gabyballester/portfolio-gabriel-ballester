@@ -1,6 +1,7 @@
 import initTilt from "./js/tilt";
 import initSr from "./js/sr";
 import resume from "./assets/resume.pdf";
+import intro from "./assets/intro.pdf";
 
 import "./style/main.scss";
 
@@ -24,8 +25,16 @@ function addResume(pdf) {
   resumeButton.setAttribute("href", pdf);
 }
 
+function addIntro(pdf) {
+  if (!pdf) return;
+
+  const resumeButton = document.querySelector(".cta-btn--intro");
+  resumeButton.setAttribute("href", pdf);
+}
+
 initSr();
 initTilt();
 
 // uncomment this if you want to attach your resume
 addResume(resume);
+addIntro(intro)
