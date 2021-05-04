@@ -1,6 +1,6 @@
 # <a href="https://portfolio-gballester.netlify.app" target="_blank">Portfolio Gabriel Ballester ⚡️</a>
 
-En él encontrarás, mi CV y carta de instroducción para descarga PDF, además de algunos de los proyectos que he ido haciendo hasta ahora.
+En él encontrarás, mi CV y carta de instroducción para descarga en PDF, además de algunos de los proyectos que he ido haciendo hasta ahora.
 
 <a href="https://portfolio-gballester.netlify.app" target="_blank">Pincha en este enlace para acceder a mi portfolio.</a>
 
