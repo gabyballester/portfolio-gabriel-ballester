@@ -2,7 +2,8 @@ import initTilt from "./js/tilt";
 import initSr from "./js/sr";
 import resumeSP from "./assets/resumeSP.pdf";
 import resumeEN from "./assets/resumeEN.pdf";
-import intro from "./assets/intro.pdf";
+import introSP from "./assets/introSP.pdf";
+import introEN from "./assets/introEN.pdf";
 
 import "./style/main.scss";
 
@@ -33,10 +34,17 @@ function addResumeEN(pdf) {
   resumeButton.setAttribute("href", pdf);
 }
 
-function addIntro(pdf) {
+function addIntroSP(pdf) {
   if (!pdf) return;
 
-  const resumeButton = document.querySelector(".cta-btn--intro");
+  const resumeButton = document.querySelector(".cta-btn--introSP");
+  resumeButton.setAttribute("href", pdf);
+}
+
+function addIntroEN(pdf) {
+  if (!pdf) return;
+
+  const resumeButton = document.querySelector(".cta-btn--introEN");
   resumeButton.setAttribute("href", pdf);
 }
 
@@ -46,4 +54,5 @@ initTilt();
 // uncomment this if you want to attach your resume
 addResumeSP(resumeSP);
 addResumeEN(resumeEN);
-addIntro(intro)
+addIntroSP(introSP)
+addIntroEN(introEN)
